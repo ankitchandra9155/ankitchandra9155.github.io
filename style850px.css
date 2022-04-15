@@ -1,0 +1,34 @@
+.icon-degree{
+    flex-direction: column;
+}
+.icon-degree span{
+    font-size: 4.2rem;
+}
+.items h4{
+    font-size: 1.4rem;
+}
+.items p{
+    font-size: 1.2rem;
+}
+
+.cityname{
+    width: 400px;
+    margin:20px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.cityname h2{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin: 5px 0px;
+    letter-spacing: 4px;
+}
+.cityname p{
+    margin-top: 5px;
+    font-size:20px ;
+}
+
+.temprature{
+    margin-top: 40px;
+}

@@ -1,0 +1,129 @@
+body{
+    margin:0px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+body::before{
+    background: url(weather-background.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    /* background-size:cover; */
+    width:100%;
+    height: 100%;
+    /* filter: blur(1.5px);
+    -webkit-filter: blur(1.5px); */
+    z-index: -1;
+}
+
+/* header  */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* border:3px solid red; */
+    height: 200px;
+    
+}
+.header h2{
+    text-align: center;
+}
+.header input{
+   /* text-align: center; */
+   height: 30px;
+   width: 480px;
+   margin: 30px auto;
+   padding: 8px 40px;
+   border-radius: 20px;
+   border: 3px solid rgb(183, 172, 172);
+   background-color: rgba(255, 255, 255, 0.825);
+   /* color: rgb(156, 149, 149); */
+   font-size: 15px;
+   /* color: blue;
+   background: url(searchIcon.png) top left no-repeat;
+   background-size: 37px */
+}
+
+#btn{
+    width:100px;
+    margin:  0px auto;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(183, 172, 172);
+    background-color: rgba(255, 255, 255, 0.825);
+}
+
+#btn:hover{
+    background-color: rgba(165, 157, 157, 0.825);
+    cursor: pointer;
+}
+
+/* cityname */
+.cityname{
+    margin-left: 30px;
+}
+
+.cityname h2{
+    font-weight: bolder;
+    font-size: 4rem;
+    margin: 10px 0px;
+    letter-spacing: 6px;
+}
+.cityname p{
+    font-size:23px ;
+}
+
+/* temprature */
+
+.temprature
+{
+    display: flex;
+}
+.icon-degree{
+    display:flex;
+    /* flex-direction: column; */
+    width: 50%;
+    align-items: center;
+    margin:0px 60px;
+    
+}
+
+.icon-degree img{
+    width:90px;
+}
+.icon-degree span{
+    font-size: 5rem;
+    margin: 0px 30px;
+}
+
+ 
+/* rightSide */
+
+.extra{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 20px;
+    margin-right: 40px;
+}
+.first-row,.second-row{
+    display: flex;
+}
+.items{
+    margin : 10px 0px;
+    /* padding: 10px; */
+    width: 33%;
+    text-align: center;
+}
+.items h4{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem;
+}
+.items p{
+    font-size: 1.7rem;
+    margin: 0px;
+    padding: 15px 0px;
+}
